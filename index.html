@@ -5,12 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Freelancer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div>START BOOTSTRAP</div>
+    <header id="header">
+        <div id="title1">START BOOTSTRAP</div>
         <nav>
-            <ul>
+            <ul id="list">
                 <li>PORTAFOLIO</li>
                 <li>ABOUT</li>
                 <li>CONTACT</li>
@@ -18,42 +22,48 @@
         </nav>
     </header>
     <main>
-        <section>
-            <div></div>
-            <div>START BOOOTSTRAP</div>
+        <section id="section1">
+            <img src="./img/profile.png" alt="profile" width="200px" height="200px">
+            <div id="title2">START BOOOTSTRAP</div>
             <div>
                 <hr><hr>
             </div>
-            <div>Web Developer - Grafic Artist - User Experience Designer</div>
+            <div id="title3">Web Developer - Grafic Artist - User Experience Designer</div>
         </section>
-        <section>
-            <div>PORTFOLIO</div>
+        <section id="section2">
+            <div id="title4">PORTFOLIO</div>
             <div>
                 <hr><hr>
             </div>
             <picture>
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+                <img src="./img/cabin.png" alt="cabin" class="image">
+                <img src="./img/cake.png" alt="cake" class="image">
+                <img src="./img/circus.png" alt="circus" class="image">
+                <img src="./img/game.png" alt="game" class="image">
+                <img src="./img/safe.png" alt="safe" class="image">
+                <img src="./img/submarine.png" alt="submarine" class="image">
             </picture>
         </section>
-        <section>
-            <div>ABOUT</div>
+        <section id="section3">
+            <div id="title5">ABOUT</div>
             <div>
                 <hr><hr>
             </div>
-            <div>
-                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, possimus. Quaerat, reprehenderit doloremque. Labore necessitatibus amet, consectetur tempora nisi fugiat recusandae, unde quisquam laboriosam officia quod, aliquam dolorum quae a?</div>
-                <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolores eligendi, sequi accusamus dolorum saepe nesciunt aliquam, nostrum placeat id iure et, eos recusandae ea! Ad officiis voluptas adipisci! Aspernatur.</div>
+            <div class="text-box">
+                <div class="text-content">Freelancer is a free bootstrap theme created by Start Bootstrap. 
+                The download includes the complete source files incluiding HTML, CSS, and Javascript as well
+                as optional LESS stylesheets for easy customization.
+                </div>
+                <div class="text-content">Whether you are a student looking to showcase your work, a profesional
+                looking to attract clients, or a graphic artist looking to share your proyects, this template
+                is the perfect starting point!    
+                </div>
             </div>
             <div>
-                <button><img src="./img/download-to-storage-drive.png" alt="download">Download Theme</button>
+                <button id="btn-dowload"><img src="./img/download-to-storage-drive.png" alt="download" width="10px" height="10px">Download Theme</button>
             </div>
         </section>
-        <section>
+        <section id="section4">
             <div>CONTACT ME</div>
             <div>
                 <hr><hr>
@@ -81,7 +91,7 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer id="footer">
         <div>
             <div>
                 <h2>LOCATION</h2>
