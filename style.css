@@ -21,9 +21,9 @@
     justify-content:space-around;
 }
 
-#title1 {
+.title1 {
     font-family: var(--montserrat);
-    font-size: 20px;
+    font-size: 1.6rem;
 }
 
 #list {
@@ -126,6 +126,7 @@ picture {
     font-size: 16px;
     font-weight: bold;
     padding: 10px 15px;
+    margin: 12px;
     border: 2px solid white;
     background-color: var(--green);
     border-radius: 5px;
@@ -182,4 +183,32 @@ picture {
 #footer {
     background-color: var(--blue);
     height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#footerContainer {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-text {
+    text-align: center;
+    width: 25%;
+}
+
+.container-text p {
+    font-family: var(--lato);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#copyright {
+    font-family: var(--lato);
+    font-size: 14px;
+    font-weight: bold;
 }
